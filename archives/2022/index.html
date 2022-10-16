@@ -7,8 +7,8 @@
         <title>Archives | 盛开的huaY</title>
         <meta name="author" content="盛开的huaY">
         <meta name="description" content="">
-        <meta name="keywords" content="">
-        <link rel="icon" href="">
+        <meta name="keywords" content="sizhan">
+        <link rel="icon" href="C:\Users\92148\myblog\themes\themesparticlex\image\1.png">
         <script src="https://cdn.staticfile.org/instant.page/5.1.0/instantpage.min.js" type="module"></script>
         <script src="https://cdn.staticfile.org/font-awesome/6.2.0/js/all.min.js"></script>
         
@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="/css/particlex.css">
         
         <script src="https://cdn.staticfile.org/vue/3.2.33/vue.global.prod.min.js"></script>
+	<script src="https://cdn.staticfile.org/animejs/3.2.1/anime.min.js"></script>
     <meta name="generator" content="Hexo 6.3.0"></head>
     <body>
         <div id="loading" style="height:100vh;width:100vw;position:fixed;display:flex;z-index:200;justify-content:space-between;background:#fff;transition:opacity 0.3s ease-out"><div style="position:fixed;height:100vh;width:100vw;display:flex;justify-content:center;align-items:center"><div id="loadcontent" style="width:50vmin;height:50vmin;padding:50px;border-radius:50%;display:flex;justify-content:center;align-items:center;border:solid 10px #a3ddfb;text-align:center"><div><h2>LOADING...</h2><p style="word-break:keep-all">加载过慢请开启缓存(浏览器默认开启)</p><div><img alt="loading" src="/loading.gif"></div></div></div></div></div>
@@ -139,26 +140,12 @@
                     
                     <span class="tag">
                         
-                        <a href="/tags/whyhowwhen/" style="color: #03a9f4">
+                        <a href="/tags/whyhowwhen/" style="color: #ffa2c4">
                             whyhowwhen
                         </a>
                     </span>
                     
                 </span>
-                
-            </div>
-        </div>
-    </div>
-    
-    <div class="timeline">
-        <div class="timeline-tail"></div>
-        <div class="timeline-content">
-            <div class="item-time">2022/10/16</div>
-            <a href="/2022/10/16/hello-world/">
-                <h3>Hello World</h3>
-            </a>
-            <div class="info">
-                
                 
             </div>
         </div>
@@ -188,9 +175,15 @@
                 <img id="img_content" alt="img_show">
             </div>
         </div>
+	<canvas
+    id="background"
+    style="position:fixed;top:0;left:0;width:100vw;height:100vh;pointer-events:none;z-index:-1"
+></canvas>
         <script src="https://cdn.staticfile.org/highlight.js/11.5.1/highlight.min.js"></script>
         <script src="/js/particlex.js"></script>
         <script src="/js/showimg.js"></script>
+	<script src="/js/fireworks.js"></script>
+	<script src="/js/background.js"></script>
         
 
     </body>
